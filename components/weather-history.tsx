@@ -21,6 +21,7 @@ export default function WeatherHistory({ refreshTrigger, onSelectSearch }: Weath
   const [editStartDate, setEditStartDate] = useState("")
   const [editEndDate, setEditEndDate] = useState("")
 
+
   useEffect(() => {
     fetchSearches()
   }, [refreshTrigger])
